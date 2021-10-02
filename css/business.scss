@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+    margin-top: 51px;
+    height: 2007px;
+    margin-bottom: 50px;
+    .c_center{
+        width: 1000px;
+        height: 100px;
+        margin: 0 auto;
+       .c_left{
+           width: 220px;
+           height: 225px;
+           background-color: #f3f3f3;
+           padding: 36px 20px 41px 20px;
+           border-radius: 5px;
+           float: left;
+           .c_left_top{
+               border-bottom: 1px solid #a3a3a3;
+            p:nth-child(1){
+                font-size: 21px;
+                font-weight: bolder;
+                margin-bottom: 8px;
+                margin-left: 8px;
+               }
+           }
+           .c_left_top1{
+               margin-top: 16px;
+               li{
+                   margin-bottom: 8px;
+               }
+               p:nth-child(1){
+                   font-size: 14x;
+                   font-weight: bolder;
+                   margin-bottom: 8px;
+                   margin-left: 8px;
+               }
+               li{
+                  margin-left: 33px;
+               }
+           }
+       }
+       .c_right{
+        background-color: #f3f3f3;
+        padding: 36px 20px 41px 20px;
+        border-radius: 5px;
+        margin-left: 30px;
+        float: left;
+        width: 670px;
+        .c_right_top{
+            border-bottom: 1px solid #a3a3a3;
+            p{
+                font-size: 21px;
+                font-weight: bolder;
+                margin-bottom: 8px;
+            }
+        }
+        .c_right_text{
+            p{
+                font-size: 16px;
+                font-weight: bold;
+                color: #484e4c;
+                margin-top: 18px;
+                margin-bottom: 18px;
+            }
+        }
+        .text_1{
+            font-size: 17px;
+        }
+        .c_right_text1{
+            p{
+                font-size: 16px;
+                font-weight: bold;
+                color: #484e4c;
+                margin-top: 63px;
+                margin-bottom: 18px;
+            }
+        }
+       }
+       .email{
+           p{
+            font-size: 16px;
+            font-weight: bold;
+            color: #484e4c;
+            margin-top: 18px;
+            margin-bottom: 18px;
+           }
+           ul{
+               margin-left: 24px;
+               li{
+                font-size: 16px;
+                margin-bottom: 3px;
+               }
+           }
+       }
+    }
+}
