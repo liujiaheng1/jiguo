@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 中间导航部分*/
+.content {
+  width: 100%;
+  margin-top: 51px;
+  margin-bottom: 50px;
+}
+
+.content .c_center {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.content .c_center .c_center_top p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.content .c_center .lei {
+  transform: translate(22.5%);
+}
+
+.content .c_center .lei li {
+  text-align: center;
+  float: left;
+  width: 167px;
+  box-sizing: border-box;
+  height: 43px;
+  margin-right: 20px;
+}
+
+.content .c_center .lei li p {
+  line-height: 43px;
+}
+
+.content .c_center .lei .border_ {
+  border-bottom: 4px solid #fd5238;
+}
+
+.center_text {
+  width: 100%;
+  background-color: #f7f7f7;
+  margin-bottom: 50px;
+}
+
+.center_text .text {
+  width: 1050px;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.center_text .text .money {
+  width: 998;
+  height: 514px;
+  border: 1px solid;
+}
