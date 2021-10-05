@@ -14,7 +14,7 @@ go()
 function go(){
     num++;
     var ajax = new XMLHttpRequest() || new ActiveXObject('Microsoft,XMLHTTP')
-    ajax.open('get','http://192.168.43.187:3000/play/new' ,true);
+    ajax.open('get','http://'+ip+':3000/play/new' ,true);
     ajax.send();
     ajax.onreadystatechange = function(){
         if(ajax.readyState == 4){
