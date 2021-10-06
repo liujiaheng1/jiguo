@@ -1,0 +1,83 @@
+.register {
+  width: 100%;
+  height: 430px;
+  background-color: #f7f7f7;
+  padding-top: 20px;
+}
+
+.register .center {
+  width: 1000px;
+  height: 312px;
+  padding-top: 74px;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+}
+
+.register .center .color {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  height: 25px;
+  border-left: 6px solid red;
+}
+
+.register .center .color p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 19px;
+}
+
+.register .center .input {
+  width: 401px;
+  height: 312px;
+  margin: 0 auto;
+}
+
+.register .center .input div input {
+  width: 401px;
+  height: 51px;
+  border: none;
+  margin-bottom: 27px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  text-indent: 1em;
+}
+
+.register .center .input .yzm input {
+  width: 245px !important;
+  float: left;
+}
+
+.register .center .input .yzm img {
+  margin-top: 5px;
+  float: right;
+}
+
+.register .center .input .yzm .sj {
+  width: 130px;
+  height: 48px;
+  border: 1px solid #f7f7f7;
+  float: right;
+  border-radius: 10px;
+}
+
+.register .center .input .yzm .sj p {
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+  color: #939498;
+}
+
+.register .center .input .goout button {
+  width: 401px;
+  height: 48px;
+  background-color: #fe5341;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+}

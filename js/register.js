@@ -117,10 +117,16 @@ btn.addEventListener('submit',function(e){
     }
     console.log('lllll');
     // 向后台提交数据
-    var arr = 'path:/users/register&phone'+phone_value+'&code'+photo_value+'&username'+username_value+'password'+pass_value;
+    // var arr = 'path:/users/register&phone'+phone_value+'&code'+photo_value+'&username'+username_value+'password'+pass_value;
+    var arr = {
+        'phone':phone_value,
+        'code':photo_value,
+        'username':username_value,
+        'password':pass_value
+    }
     var ajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
     ajax.open('post', 'http://192.168.43.187:3000/users/register', true);
-    ajax.send();
+    ajax.send(arr);
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4) {
             if (ajax.status == 200) {
