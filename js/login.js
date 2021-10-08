@@ -1,3 +1,4 @@
+var ip = '192.168.43.187';
 username.addEventListener('blur',function(){
     var username_value = username.value;
     var reg1 = /^[\da-zA-Z_\u4e00-\u9f5a]{4,8}$/;
@@ -51,7 +52,7 @@ btn.addEventListener('submit',function(e){
         'password':pass_value
     }
     var ajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-    ajax.open('get', 'http://192.168.43.187:3000/users/login', true);
+    ajax.open('get', 'http://'+ip+':3000/users/login', true);
     ajax.send(arr);
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4) {

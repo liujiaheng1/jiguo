@@ -1,7 +1,7 @@
+var ip = '192.168.43.187';
 var new_ = document.getElementById('newset_');
 var ul = document.getElementById('mb');
 var height1 = document.getElementsByClassName('center_text')[0];
-var ip = '192.168.43.187';
 // 点击下边框发生变化
 $('.lei li').on('click',function(){
     $(this).addClass('border_')

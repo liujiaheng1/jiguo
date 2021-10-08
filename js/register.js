@@ -1,3 +1,4 @@
+var ip = '192.168.43.187';
 // 验证手机号
 phone.addEventListener('blur',function(){
     var phone_value = phone.value
@@ -125,7 +126,7 @@ btn.addEventListener('submit',function(e){
         'password':pass_value
     }
     var ajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-    ajax.open('post', 'http://192.168.43.187:3000/users/register', true);
+    ajax.open('post', 'http://'+ip+':3000/users/register', true);
     ajax.send(arr);
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4) {

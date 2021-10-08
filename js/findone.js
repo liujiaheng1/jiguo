@@ -56,7 +56,7 @@ newset_.onclick = function(){
 function go_1(){
     num1++;
     var ajax = new XMLHttpRequest() || new ActiveXObject('Microsoft,XMLHTTP')
-    ajax.open('get','http://192.168.43.187:3000/play/hot' ,true);
+    ajax.open('get','http://'+ip+':3000/play/hot' ,true);
     ajax.send();
     ajax.onreadystatechange = function(){
         if(ajax.readyState == 4){
